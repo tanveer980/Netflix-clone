@@ -1,0 +1,376 @@
+.main {
+    background-image: url("op.jpg");
+    height: 100vh;
+    position: relative;
+    z-index: 0.6;
+}
+
+body {
+    background-color: rgb(50, 45, 45);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    /* padding: 30px; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+    max-width: 75vw;
+    align-items: center;
+    height: 100px;
+}
+
+button {
+    color: rgb(251, 251, 251);
+    border-radius: 6px;
+    padding: 6px 13px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.op{
+    display: flex;
+    gap: 10px;
+}
+
+.a {
+    background-color: black;
+    border: 0.2px solid white;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.b {
+    background-color: red;
+    border: none;
+}
+
+.title {
+    align-items: center;
+    /* background-color: rgb(50, 125, 190); */
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    position: relative;
+    z-index: 10;
+    gap: 30px;
+    height: 70%;
+}
+
+.text {
+    max-width: 1000px;
+    text-align: center;
+
+}
+
+.text::first-line {
+    font-size: 47px;
+    font-weight: 900;
+}
+
+.hero>input {
+    background-color: black;
+    border: 1px solid white;
+    opacity: 0.6;
+    border-radius: 5px;
+    padding: 20px 100px 20px 17px;
+    font-size: medium;
+}
+
+.hero :nth-child(2) {
+    background-color: red;
+    padding: 18px 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.hero{
+    display: flex;
+    gap: 10px;
+}
+
+.hell {
+    background-color: black;
+    height: 82vh;
+    margin-top: 9px;
+    position: relative;
+}
+
+.hello {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: sans-serif;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.pp :nth-child(1) {
+    font-size: larger;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.pp :nth-child(2) {
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.pp {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img img {
+    position: relative;
+    z-index: 3;
+}
+#opp{
+    display: flex;
+}
+
+.hello video {
+    position: absolute;
+    left: 748px;
+    top: 100px;
+}
+
+.hell2 {
+    background-color: black;
+    height: 82vh;
+    margin-top: 9px;
+}
+
+.hello2 {
+    color: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-family: sans-serif;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.pp2 :nth-child(1) {
+    font-size: larger;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.pp2 :nth-child(2) {
+    font-size: 23px;
+    max-width: 500px;
+}
+
+.pp2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 37vw;
+}
+
+.img2 img {
+    position: relative;
+    z-index: 3;
+}
+
+.hell3 {
+    background-color: black;
+    height: 82vh;
+    margin-top: 9px;
+    position: relative;
+}
+
+.hello3 {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    font-family: sans-serif;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.pp3 :nth-child(1) {
+    font-size: larger;
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.pp3 :nth-child(2) {
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.pp3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img3 img {
+    position: relative;
+    z-index: 3;
+}
+
+.hello3 video {
+    position: absolute;
+    left: 765px;
+    top: 51px;
+}
+.hell4 {
+    background-color: black;
+    height: 82vh;
+    margin-top: 9px;
+}
+
+.hello4 {
+    color: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-family: sans-serif;
+    max-width: 85vw;
+    margin: auto;
+}
+
+.pp4 :nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.pp4 :nth-child(2) {
+    font-size: 26px;
+    max-width: 570px;
+
+}
+
+.pp4 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 42vw;
+}
+
+.img4 img {
+    position: relative;
+    z-index: 3;
+}
+
+footer {
+    background-color: black;
+    height: 130vh;
+    margin-top: 9px;
+    /* gap: 10px; */
+}
+
+footer div b {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    justify-content: center;
+    display: flex;
+    padding-top: 60px;
+    font-weight: 900;
+    height: 70px;
+    /* background-color: rgb(45, 116, 177); */
+
+}
+
+.foot {
+    background-color: rgb(48, 47, 47);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    max-width: 73vw;
+    margin: auto;
+    font-family: sans-serif;
+    color: white;
+    justify-content: space-between;
+    margin-top: 7px;
+    cursor: pointer;
+
+}
+.feet{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    /* background-color: rgb(66, 123, 173); */
+    margin-top: 50px;
+    height: 100px;
+
+}
+.foot img{
+    filter: invert();
+}
+.foot:hover{
+    background-color:#414141;
+    
+}
+#hell{
+    background-color: black;
+    height: 50vh;
+    margin-top: 9px;
+    color: white;
+}
+.oo{
+    max-width: 40vw;
+    /* margin-top: 50px; */
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0.7;
+}
+.qw{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 70vw;
+    margin: auto;
+    /* color: white; */
+}
+.qq{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    opacity: 0.7;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.qq a{
+    color: white;
+}
